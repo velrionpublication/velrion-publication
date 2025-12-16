@@ -113,13 +113,22 @@ document.body.appendChild(discover);
 function showBuyInfo(bookName) {
   alert(
     bookName +
-    "\n\nLegally available on:\n• Amazon Kindle\n• Google Play Books\n• Apple Books"
+    "\n\nThis book is legally available on all major platforms.\n\n" +
+    "You can purchase it from:\n" +
+    "• Amazon Kindle\n" +
+    "• Google Play Books\n" +
+    "• Apple Books\n\n" +
+    "🔍 Search the book name on your preferred platform.\n\n" +
+    "🔥 Limited Time Offer: Up to 20% OFF\n\n" +
+    "Hurry and grab your copy!"
   );
 }
 
 const products = [
-  { name: "The Art of Silent Power", price: "₹299", img: "book3.jpg" },
-  { name: "Oppose the Common Path", price: "₹349", img: "book4.jpg" }
+  { name: "THINK LIKE MONEY", price: "₹199", img: "book1.jpg" },
+  { name: "MILLIONAIRE HABITS", price: "₹249", img: "book2.jpg" },
+  { name: "THE ART OF ILENT POWER", price: "₹299", img: "book3.jpg" },
+  { name: "OPPOSE THE COMMON PATH", price: "₹349", img: "book4.jpg" }
 ];
 
 const shop = document.createElement("section");
@@ -176,11 +185,17 @@ document.body.appendChild(about);
 const footer = document.createElement("footer");
 footer.style.background = "#020617";
 footer.style.color = "#cbd5f5";
-footer.style.padding = "30px";
+footer.style.padding = "30px 20px";
+footer.style.marginTop = "40px";
 footer.style.textAlign = "center";
 
 footer.innerHTML = `
   <p><b>Velrion Publication</b></p>
-  <p>Founder: Shivam Vanjare</p>
+  <p>Managing Director: Shivam Vanjare</p>
+  <p>Contact: <a href="mailto:velrion1818@gmail.com" style="color:#93c5fd;">velrion1818@gmail.com</a></p>
+  <p style="font-size:12px;margin-top:10px;">
+    Privacy Policy • Terms of Use • Service Policy
+  </p>
 `;
 document.body.appendChild(footer);
+
