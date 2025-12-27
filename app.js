@@ -191,12 +191,21 @@ footer.style.textAlign = "center";
 
 footer.innerHTML = `
   <p><b>Velrion Publication</b></p>
-  <p>Managing Director: Shivam Vanjare</p>
-  <p>Contact: <a href="mailto:velrion1818@gmail.com" style="color:#93c5fd;">velrion1818@gmail.com</a></p>
+  <p>Founder & Managing Director: Shivam Vanjare</p>
+  <p style="font-size:13px;">
+    Independent digital publishing brand focused on non-fiction eBooks.
+  </p>
+  <p>Contact: 
+    <a href="mailto:velrion1818@gmail.com" style="color:#93c5fd;">
+      velrion1818@gmail.com
+    </a>
+  </p>
   <p style="font-size:12px;margin-top:10px;">
     Privacy Policy • Terms of Use • Service Policy
   </p>
 `;
 document.body.appendChild(footer);
+
+
 
 
