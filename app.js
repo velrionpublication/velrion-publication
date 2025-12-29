@@ -42,10 +42,10 @@ hero.innerHTML = `
     </h1>
     <p style="font-size:16px;margin-bottom:15px;">
       Premium books on mindset, trading & success curated by 
-      <b>Shivam Vanjare</b>, focused on mindset, wealth, and silent power.
+      <b>Shivam Vanjare</b>, Focused on Mindset, Wealth, and Silent Power.
     </p>
     <p style="color:#166534;font-weight:bold;">
-      ✔ Legally available on all major platforms
+      ✔ Legally available on all Major Platforms
     </p>
   </div>
 
@@ -62,8 +62,8 @@ why.style.margin = "auto";
 why.innerHTML = `
   <h2>Why Velrion Publication?</h2>
   <p>
-    Our books are written for thinkers who prefer clarity over noise,
-    patience over impulse, and silent power over loud success.
+    Our Books are Written for Thinkers who Prefer Clarity Over Noise,
+   Patience over Impulse, and Silent Power over loud SUCCESS.
   </p>
 `;
 document.body.appendChild(why);
@@ -77,7 +77,7 @@ popular.style.margin = "auto";
 popular.innerHTML = `
   <h2>Popular Books</h2>
   <ul>
-    <li>The Art of Silent Power</li>
+    <li>The Market Mind</li>
     <li>Oppose the Common Path – Why Doing the Opposite Makes You Rich</li>
     <li>Dopamine Fasting</li>
     <li>The Invisible Rules of Wealth</li>
@@ -94,16 +94,16 @@ discover.innerHTML = `
   <div style="max-width:900px;margin:auto;">
     <h2>Build Wealth. Master the Mind. Move in Silence.</h2>
     <p>
-      Velrion Publication curates premium books on mindset, trading psychology
-      and long-term success for individuals who think differently.
+      Velrion Publication curates premium Books on Mindset, Trading Psychology
+      and long-term Success for Individuals Who Think Differently.
     </p>
     <p>
-      These books are created for readers who really want to do something in life
-      and value clarity over noise, discipline over impulse, and silent power over loud success.
+      These Books are Created for Readers Who Really want to Do Something in Life
+      and Value Clarity Over Noise, Discipline over Impulse, and Silent Power over Loud SUCCESS.
     </p>
     <p>
-      Each title by <b>Shivam Vanjare</b> strengthens decision-making,
-      emotional control, wealth mindset and independent thinking.
+      Each title by <b>Shivam Vanjare</b> strengthens Decision-Making,
+      Emotional Control, Wealth Mindset and Independent Thinking.
     </p>
   </div>
 `;
@@ -206,6 +206,7 @@ footer.innerHTML = `
   </p>
 `;
 document.body.appendChild(footer);
+
 
 
 
