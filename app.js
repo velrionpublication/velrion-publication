@@ -45,11 +45,11 @@ Object.assign(hero.style, {
 hero.innerHTML = `
   <div style="max-width:520px;">
     <h1 style="font-size:36px;margin-bottom:15px;">
-      Build Wealth. Master the Mind. Move in Silence.
+      Discover Powerful Books That Shape Thinking
     </h1>
     <p style="font-size:16px;margin-bottom:20px;">
-      Velrion Publication is a premium digital publishing brand founded by
-      <b>Shivam Vanjare</b>, Focused on Mindset mastery, Wealth creation,
+      Premium Books on Mindset, Trading & Success Curated By
+      <b>SHHIVAM VANJARE</b>, Focused on Mindset mastery, Wealth creation,
       Trading psychology and Long-Term Success.
     </p>
     <p style="color:#166534;font-weight:bold;">
@@ -189,9 +189,9 @@ about.style.background = "#f1f5f9";
 
 about.innerHTML = `
   <div style="max-width:900px;margin:auto;">
-    <h2>About the Founder</h2>
+    <h2>ABOUT THE FOUNDER</h2>
     <p>
-      <b>Shivam Vanjare</b> is an Entrepreneur, Author, Trader and Digital Publisher
+      <b>SHIVAM VANJARE</b> is an Entrepreneur, Author, Trader and Digital Publisher
       with Deep Experience in Trading Psychology, Investing Mindset and long-term
       Wealth Principles.
     </p>
@@ -217,3 +217,4 @@ footer.innerHTML = `
   <p style="font-size:12px;">Privacy Policy • Terms • Service Policy</p>
 `;
 document.body.appendChild(footer);
+
