@@ -21,7 +21,7 @@ header.innerHTML = `
     <img src="logo.jpg" style="height:40px;">
     <b style="font-size:18px;">VELRION PUBLICATION</b>
   </div>
-  <div style="font-size:14px;">Premium eBooks</div>
+  <div style="font-size:13px;">Premium eBooks</div>
 `;
 document.body.appendChild(header);
 
@@ -41,8 +41,8 @@ hero.innerHTML = `
       Discover Powerful Books That Shape Thinking
     </h1>
     <p style="font-size:16px;margin-bottom:15px;">
-      Premium books on mindset, trading & success curated by 
-      <b>Shivam Vanjare</b>, focused on mindset, wealth, and silent power.
+      Premium books on Mindset, Trading & Success curated by 
+      <b>Shivam Vanjare</b>, focused on Mindset, Wealth, and Silent power.
     </p>
     <p style="color:#166534;font-weight:bold;">
       ✔ Legally available on all major platforms
@@ -119,17 +119,17 @@ function showBuyInfo(bookName) {
     "• Google Play Books\n" +
     "• Apple Books\n\n" +
     "🔍 Search the book name on your preferred platform.\n\n" +
-    "🔥 Limited Time Offer: Up to 20% OFF\n\n" +
+    "🔥 Limited Time Offer: Up to 18% OFF\n\n" +
     "Hurry and grab your copy!"
   );
 }
 
 const products = [
-  { name: "THINK LIKE MONEY", price: "₹199", img: "book1.jpg" },
-  { name: "MILLIONAIRE HABITS", price: "₹399", img: "book2.jpg" },
-  { name: "THE MARKET MIND", price: "₹299", img: "book5.jpg" },
-  { name: "DOPAMINE FASTING", price: "₹349", img: "book4.jpg" },
-  { name: "THE ART OF ILENT POWER", price: "₹349", img: "book3.jpg" }
+  { name: "THINK LIKE MONEY", price: "₹189", img: "book1.jpg" },
+  { name: "MILLIONAIRE HABITS", price: "₹318", img: "book2.jpg" },
+  { name: "THE MARKET MIND", price: "₹298", img: "book5.jpg" },
+  { name: "DOPAMINE FASTING", price: "₹348", img: "book4.jpg" },
+  { name: "THE ART OF ILENT POWER", price: "₹318", img: "book3.jpg" }
 ];
 
 const shop = document.createElement("section");
@@ -174,9 +174,9 @@ about.innerHTML = `
   <div style="max-width:900px;margin:auto;">
     <h2>About the Founder</h2>
     <p>
-      <b>Shivam Vanjare</b> is an entrepreneur, author, trader and digital publisher
-      with deep experience in trading psychology, investing mindset and long-term
-      wealth principles.
+      <b>Shivam Vanjare</b> is an "Entrepreneur, Author, Trader and Digital Publisher
+      with deep Experience in 'Trading Psychology', 'Investing mindset' and 'Long-term
+      wealth principles'."
     </p>
   </div>
 `;
@@ -192,7 +192,6 @@ footer.style.textAlign = "center";
 
 footer.innerHTML = `
   <p><b>Velrion Publication</b></p>
-  <p>Founder & Managing Director: Shivam Vanjare</p>
   <p style="font-size:13px;">
     Independent digital publishing brand focused on non-fiction eBooks.
   </p>
