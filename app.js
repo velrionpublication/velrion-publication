@@ -193,8 +193,9 @@ footer.style.textAlign = "center";
 footer.innerHTML = `
   <p><b>Velrion Publication</b></p>
   <p style="font-size:13px;">
-    Independent digital publishing brand focused on non-fiction eBooks.
+    Independent "Digital publishing Brand" Focused on 'Non-Fiction EBooks'.
   </p>
+  <p><b>MD: MR.SHIVAM VANJARE</b></p>
   <p>Contact: 
     <a href="mailto:velrion1818@gmail.com" style="color:#93c5fd;">
       velrion1818@gmail.com
