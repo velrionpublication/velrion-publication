@@ -125,10 +125,10 @@ function showBuyInfo(bookName) {
 }
 
 const products = [
-  { name: "THINK LIKE MONEY", price: "₹189", img: "book1.jpg" },
+  { name: "THINK LIKE MONEY", price: "₹181", img: "book1.jpg" },
   { name: "MILLIONAIRE HABITS", price: "₹318", img: "book2.jpg" },
-  { name: "THE MARKET MIND", price: "₹298", img: "book5.jpg" },
-  { name: "DOPAMINE FASTING", price: "₹348", img: "book4.jpg" },
+  { name: "THE MARKET MIND", price: "₹281", img: "book5.jpg" },
+  { name: "DOPAMINE FASTING", price: "₹381", img: "book4.jpg" },
   { name: "THE ART OF ILENT POWER", price: "₹318", img: "book3.jpg" }
 ];
 
