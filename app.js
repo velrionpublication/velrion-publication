@@ -130,6 +130,7 @@ const products = [
   { name: "THE MARKET MIND", price: "₹281", img: "book5.jpg" },
   { name: "DOPAMINE FASTING", price: "₹381", img: "book4.jpg" },
   { name: "THE ART OF ILENT POWER", price: "₹318", img: "book3.jpg" }
+  { name: "VELRION INVESTMENT LEARNING FRAMEWORK", price: "₹1799", img: "book6.jpg" }
 ];
 
 const shop = document.createElement("section");
