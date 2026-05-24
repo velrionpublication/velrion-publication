@@ -193,19 +193,34 @@ footer.style.textAlign = "center";
 
 footer.innerHTML = `
   <p><b>Velrion Publication</b></p>
+
   <p style="font-size:13px;">
     Independent "Digital publishing Brand" Focused on 'Non-Fiction EBooks'.
   </p>
+
   <p><b>MD: MR.SHIVAM VANJARE</b></p>
-  <p>Contact: 
+
+  <p>
+    Contact:
     <a href="mailto:velrion1818@gmail.com" style="color:#93c5fd;">
       velrion1818@gmail.com
     </a>
   </p>
+
+  <p>
+    LinkedIn:
+    <a href="https://www.linkedin.com/in/shivam-vanjare-4321963a1"
+       target="_blank"
+       style="color:#93c5fd;text-decoration:none;">
+       Shivam Vanjare
+    </a>
+  </p>
+
   <p style="font-size:12px;margin-top:10px;">
     Privacy Policy • Terms of Use • Service Policy
   </p>
 `;
+
 document.body.appendChild(footer);
 
 
